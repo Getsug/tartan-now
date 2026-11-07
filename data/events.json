@@ -1,0 +1,51 @@
+[
+  {
+    "id": "ai-workshop",
+    "title": "AI & Innovation Workshop (Sample)",
+    "description": "An illustrative workshop entry. Replace this with a confirmed CMU-Africa event before launch.",
+    "category": "Tech",
+    "location": "Makerspace, CMU-Africa",
+    "organizer": "Example Organizer",
+    "startTime": "2026-11-09T14:00:00+02:00",
+    "endTime": "2026-11-09T16:00:00+02:00",
+    "registrationUrl": null,
+    "waitlistUrl": null,
+    "status": "changed",
+    "changeNote": "Sample update: location moved from Room 120 to Makerspace.",
+    "updatedAt": "2026-11-07T11:30:00+02:00",
+    "image": "/events/sample-workshop.png",
+    "imageAlt": "Illustrative workshop image"
+  },
+  {
+    "id": "career-session",
+    "title": "Career Development Session (Sample)",
+    "description": "An illustrative career event. Replace with confirmed information.",
+    "category": "Career",
+    "location": "CMU-Africa Campus",
+    "organizer": "Example Organizer",
+    "startTime": "2026-11-12T10:00:00+02:00",
+    "endTime": "2026-11-12T12:00:00+02:00",
+    "registrationUrl": null,
+    "waitlistUrl": null,
+    "status": "normal",
+    "changeNote": null,
+    "updatedAt": "2026-11-07T11:30:00+02:00",
+    "image": null
+  },
+  {
+    "id": "social-meetup",
+    "title": "Tartan Social Meetup (Sample)",
+    "description": "Illustrative social event for testing the board.",
+    "category": "Social",
+    "location": "CMU-Africa Campus",
+    "organizer": "Example Organizer",
+    "startTime": "2026-11-16T17:00:00+02:00",
+    "endTime": "2026-11-16T18:30:00+02:00",
+    "registrationUrl": null,
+    "waitlistUrl": null,
+    "status": "new",
+    "changeNote": null,
+    "updatedAt": "2026-11-07T11:30:00+02:00",
+    "image": null
+  }
+]

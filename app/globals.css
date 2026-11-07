@@ -1,0 +1,20 @@
+@import "tailwindcss";
+:root { --tartan-red:#c41230; --tartan-dark:#8a0c21; --ink:#1a1a1a; --muted:#6b6b6b; --line:#e6e2dd; --bg:#faf8f6; --card:#ffffff; --chip:#f3efeb; --chip-active:#c41230; --highlight-soft:#fdeef0; color-scheme:light; }
+html { background:var(--bg); }
+body { background:var(--bg); color:var(--ink); font-family:Arial,Helvetica,sans-serif; min-height:100vh; }
+button,a { -webkit-tap-highlight-color:transparent; }
+:focus-visible { outline:3px solid var(--tartan-red); outline-offset:3px; }
+.daygroup { margin-bottom:26px; }
+.daygroup-heading { display:flex; align-items:center; gap:9px; margin:0 0 12px 2px; font-size:13px; font-weight:800; letter-spacing:.9px; text-transform:uppercase; color:var(--tartan-red); }
+.daygroup-heading::after { content:""; flex:1; height:1px; background:var(--line); }
+.daygroup-count { background:var(--chip); color:var(--muted); font-size:11px; font-weight:700; letter-spacing:0; padding:3px 8px; border-radius:999px; }
+.event-card { background:var(--card); border:1px solid var(--line); border-radius:15px; padding:16px; margin-bottom:10px; box-shadow:0 1px 3px rgba(0,0,0,.04); }
+.ev-top { display:flex; align-items:flex-start; gap:12px; }
+.ev-cal { flex:0 0 auto; width:49px; text-align:center; background:var(--chip); border-radius:10px; padding:7px 0 6px; }
+.ev-cal-month { font-size:10px; font-weight:800; letter-spacing:.6px; text-transform:uppercase; color:var(--tartan-red); }
+.ev-cal-day { font-size:19px; font-weight:800; line-height:1.15; color:var(--ink); }
+.ev-main { flex:1; min-width:0; }
+.event-title { margin:0 0 6px; font-size:16px; font-weight:750; line-height:1.35; overflow-wrap:anywhere; }
+.event-meta { font-size:13px; color:var(--muted); display:flex; flex-wrap:wrap; gap:6px 15px; align-items:center; }
+.filter-chip { display:inline-flex; flex-shrink:0; min-height:42px; align-items:center; justify-content:center; border:1px solid var(--line); border-radius:999px; padding:0 16px; font-size:13px; font-weight:700; background:white; color:#555; }
+.filter-chip[aria-pressed="true"] { background:var(--chip-active); border-color:var(--chip-active); color:white; }

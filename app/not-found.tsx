@@ -1,0 +1,2 @@
+import Link from 'next/link';
+export default function NotFound(){return <main className="mx-auto max-w-lg px-4 py-24 text-center"><h1 className="text-3xl font-bold">Event not found</h1><p className="mt-3 text-slate-600">This event may have been removed or the link is incorrect.</p><Link className="mt-6 inline-flex min-h-11 items-center rounded-xl bg-red-800 px-5 font-bold text-white" href="/">Back to events</Link></main>}
