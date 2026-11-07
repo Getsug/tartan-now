@@ -6,6 +6,7 @@ import { inRange, readSaved, formatDate } from '@/lib/event-utils';
 import { groupByDate, labelForDate } from '@/lib/groupEvents';
 import EventCard from './EventCard';
 import Image from "next/image";
+import Link from "next/link";
 
 const ranges=['Today','This week','Next week','This month'];
 const categories=['All interests','Tech','Career','Social','Wellness','Arts','Clubs'];
@@ -28,7 +29,7 @@ export default function EventBoard({events}:{events:CampusEvent[]}) {
  const timestamps=events.map(e=>Date.parse(e.updatedAt)).filter(Number.isFinite);
  const latest=timestamps.length?Math.max(...timestamps):null;
  return <>
-  <header className="sticky top-0 z-20 bg-[var(--tartan-red)] text-white shadow-sm"><div className="mx-auto max-w-5xl px-4 pb-3 pt-3 sm:px-6"><div className="flex items-center justify-between gap-3"><a href="/" className="flex min-w-0 items-center gap-3">
+  <header className="sticky top-0 z-20 bg-[var(--tartan-red)] text-white shadow-sm"><div className="mx-auto max-w-5xl px-4 pb-3 pt-3 sm:px-6"><div className="flex items-center justify-between gap-3"><Link href="/" className="flex min-w-0 items-center gap-3">
   <Image
     src="/logo/scotty.png"
     alt="Tartan Now logo"
@@ -40,7 +41,7 @@ export default function EventBoard({events}:{events:CampusEvent[]}) {
   <span className="text-xl font-extrabold tracking-tight sm:text-2xl">
     Tartan Now
   </span>
-</a><button type="button" onClick={()=>setSavedOnly(x=>!x)} aria-pressed={savedOnly} className={`inline-flex min-h-11 shrink-0 items-center gap-2 rounded-xl border border-white/40 px-3 text-xs font-bold sm:text-sm ${savedOnly?'bg-white text-[var(--tartan-red)]':'bg-white/10 text-white'}`}><Bookmark size={16}/> Saved ({saved.length})</button></div><label htmlFor="event-search" className="sr-only">Search events</label><div className="relative mt-3"><Search size={19} className="absolute left-3 top-3.5 text-[#777]"/><input id="event-search" type="search" value={query} onChange={e=>setQuery(e.target.value)} placeholder="Search title, location, category, tags..." className="min-h-11 w-full min-w-0 rounded-xl bg-white pl-10 pr-4 text-sm text-[var(--ink)] outline-none placeholder:text-[#777]"/></div></div></header>
+</Link><button type="button" onClick={()=>setSavedOnly(x=>!x)} aria-pressed={savedOnly} className={`inline-flex min-h-11 shrink-0 items-center gap-2 rounded-xl border border-white/40 px-3 text-xs font-bold sm:text-sm ${savedOnly?'bg-white text-[var(--tartan-red)]':'bg-white/10 text-white'}`}><Bookmark size={16}/> Saved ({saved.length})</button></div><label htmlFor="event-search" className="sr-only">Search events</label><div className="relative mt-3"><Search size={19} className="absolute left-3 top-3.5 text-[#777]"/><input id="event-search" type="search" value={query} onChange={e=>setQuery(e.target.value)} placeholder="Search title, location, category, tags..." className="min-h-11 w-full min-w-0 rounded-xl bg-white pl-10 pr-4 text-sm text-[var(--ink)] outline-none placeholder:text-[#777]"/></div></div></header>
   <main className="mx-auto max-w-5xl px-4 pb-16 pt-5 sm:px-6"><p className="mb-4 text-xs text-[var(--muted)]">{latest!==null?`Last updated ${formatDate(new Date(latest).toISOString(),{dateStyle:'medium',timeStyle:'short'})} · Kigali time`:'No event updates yet'}</p>
    <div className="flex gap-2 overflow-x-auto pb-2" aria-label="Date range">{ranges.map(r=><button key={r} type="button" aria-pressed={!savedOnly&&range===r} onClick={()=>{setRange(r);setSavedOnly(false);}} className="filter-chip">{r}</button>)}</div>
    <div className="mt-1 flex gap-2 overflow-x-auto pb-2" aria-label="Interest category">{categories.map(c=><button key={c} type="button" aria-pressed={category===c} onClick={()=>setCategory(c)} className="filter-chip">{c}</button>)}</div>
