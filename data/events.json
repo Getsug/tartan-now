@@ -47,5 +47,216 @@
     "changeNote": null,
     "updatedAt": "2026-11-07T11:30:00+02:00",
     "image": null
+  },
+    {
+    "id": "demo-10",
+    "title": "Python for Data Visualization (Demo)",
+    "description": "Explore simple techniques for creating clear charts and presenting data. This is a fictional demonstration event, not a confirmed CMU-Africa activity.",
+    "category": "Tech",
+    "location": "Room F301, CMU-Africa",
+    "organizer": "Data Science Study Group",
+    "startTime": "2026-11-12T11:00:00+02:00",
+    "endTime": "2026-11-12T12:00:00+02:00",
+    "registrationUrl": null,
+    "waitlistUrl": null,
+    "status": "new",
+    "changeNote": null,
+    "updatedAt": "2026-11-07T13:00:00+02:00",
+    "tags": [
+      "python",
+      "data",
+      "workshop",
+      "new"
+    ],
+    "image": null
+  },
+  {
+    "id": "demo-11",
+    "title": "Student Community Forum (Demo)",
+    "description": "A discussion of student ideas for improving campus activities and communication. This is a fictional demonstration event, not a confirmed CMU-Africa activity.",
+    "category": "Clubs",
+    "location": "Room A203, CMU-Africa",
+    "organizer": "Student Community Volunteers",
+    "startTime": "2026-11-12T15:30:00+02:00",
+    "endTime": "2026-11-12T16:30:00+02:00",
+    "registrationUrl": null,
+    "waitlistUrl": null,
+    "status": "normal",
+    "changeNote": null,
+    "updatedAt": "2026-11-07T13:00:00+02:00",
+    "tags": [
+      "student voice",
+      "feedback",
+      "guild"
+    ],
+    "image": null
+  },
+  {
+    "id": "demo-12",
+    "title": "Creative Photography Walk Briefing (Demo)",
+    "description": "Meet other photography enthusiasts and plan a short creative photo walk. This is a fictional demonstration event, not a confirmed CMU-Africa activity.",
+    "category": "Arts",
+    "location": "Room F203, CMU-Africa",
+    "organizer": "Photography Interest Group",
+    "startTime": "2026-11-13T13:00:00+02:00",
+    "endTime": "2026-11-13T14:00:00+02:00",
+    "registrationUrl": null,
+    "waitlistUrl": null,
+    "status": "normal",
+    "changeNote": null,
+    "updatedAt": "2026-11-07T13:00:00+02:00",
+    "tags": [
+      "photography",
+      "creative",
+      "arts"
+    ],
+    "image": null
+  },
+  {
+    "id": "demo-13",
+    "title": "Friday Networking Mixer (Demo)",
+    "description": "An informal student networking meetup; this example event has been cancelled. This is a fictional demonstration event, not a confirmed CMU-Africa activity.",
+    "category": "Social",
+    "location": "Room F301, CMU-Africa",
+    "organizer": "Student Networking Circle",
+    "startTime": "2026-11-13T17:00:00+02:00",
+    "endTime": "2026-11-13T18:30:00+02:00",
+    "registrationUrl": null,
+    "waitlistUrl": null,
+    "status": "cancelled",
+    "changeNote": "Example cancellation: organizer unavailable.",
+    "updatedAt": "2026-11-07T14:00:00+02:00",
+    "tags": [
+      "networking",
+      "cancelled",
+      "social"
+    ],
+    "image": null
+  },
+  {
+    "id": "demo-14",
+    "title": "Cybersecurity Capture-the-Flag Prep (Demo)",
+    "description": "A beginner-friendly discussion of CTF challenges, team roles, and learning resources. This is a fictional demonstration event, not a confirmed CMU-Africa activity.",
+    "category": "Tech",
+    "location": "Room A203, CMU-Africa",
+    "organizer": "Cybersecurity Study Group",
+    "startTime": "2026-11-16T10:00:00+02:00",
+    "endTime": "2026-11-16T11:00:00+02:00",
+    "registrationUrl": null,
+    "waitlistUrl": null,
+    "status": "normal",
+    "changeNote": null,
+    "updatedAt": "2026-11-07T14:00:00+02:00",
+    "tags": [
+      "security",
+      "CTF",
+      "practice"
+    ],
+    "image": null
+  },
+  {
+    "id": "demo-15",
+    "title": "Interview Practice Circles (Demo)",
+    "description": "Practice behavioral interview questions with classmates and receive constructive feedback. This is a fictional demonstration event, not a confirmed CMU-Africa activity.",
+    "category": "Career",
+    "location": "Room F203, CMU-Africa",
+    "organizer": "Career Peer Network",
+    "startTime": "2026-11-17T14:00:00+02:00",
+    "endTime": "2026-11-17T15:00:00+02:00",
+    "registrationUrl": null,
+    "waitlistUrl": null,
+    "status": "normal",
+    "changeNote": null,
+    "updatedAt": "2026-11-07T14:00:00+02:00",
+    "tags": [
+      "interviews",
+      "career",
+      "practice"
+    ],
+    "image": null
+  },
+  {
+    "id": "demo-16",
+    "title": "Student Demo Afternoon (Demo)",
+    "description": "Share prototypes, class projects, and experiments in short informal demos. This is a fictional demonstration event, not a confirmed CMU-Africa activity.",
+    "category": "Tech",
+    "location": "Room F301, CMU-Africa",
+    "organizer": "Student Makers Community",
+    "startTime": "2026-11-19T16:00:00+02:00",
+    "endTime": "2026-11-19T17:30:00+02:00",
+    "registrationUrl": null,
+    "waitlistUrl": null,
+    "status": "new",
+    "changeNote": null,
+    "updatedAt": "2026-11-07T15:00:00+02:00",
+    "tags": [
+      "demo",
+      "projects",
+      "new"
+    ],
+    "image": null
+  },
+  {
+    "id": "demo-17",
+    "title": "Mindful Break & Study Planning (Demo)",
+    "description": "A short session on sustainable study habits and end-of-semester planning. This is a fictional demonstration event, not a confirmed CMU-Africa activity.",
+    "category": "Wellness",
+    "location": "Room A203, CMU-Africa",
+    "organizer": "Wellness Volunteers",
+    "startTime": "2026-11-23T12:00:00+02:00",
+    "endTime": "2026-11-23T13:00:00+02:00",
+    "registrationUrl": null,
+    "waitlistUrl": null,
+    "status": "normal",
+    "changeNote": null,
+    "updatedAt": "2026-11-07T15:00:00+02:00",
+    "tags": [
+      "wellness",
+      "study",
+      "planning"
+    ],
+    "image": null
+  },
+  {
+    "id": "demo-18",
+    "title": "Community Culture Exchange (Demo)",
+    "description": "Share traditions, stories, and perspectives with fellow students. This is a fictional demonstration event, not a confirmed CMU-Africa activity.",
+    "category": "Social",
+    "location": "Room F203, CMU-Africa",
+    "organizer": "Student Cultural Exchange Group",
+    "startTime": "2026-11-26T15:00:00+02:00",
+    "endTime": "2026-11-26T16:30:00+02:00",
+    "registrationUrl": null,
+    "waitlistUrl": null,
+    "status": "normal",
+    "changeNote": null,
+    "updatedAt": "2026-11-07T15:00:00+02:00",
+    "tags": [
+      "culture",
+      "community",
+      "social"
+    ],
+    "image": null
+  },
+  {
+    "id": "demo-19",
+    "title": "Portfolio Review Roundtable (Demo)",
+    "description": "Bring a portfolio or project showcase for feedback from fellow students. This is a fictional demonstration event, not a confirmed CMU-Africa activity.",
+    "category": "Career",
+    "location": "Room F301, CMU-Africa",
+    "organizer": "Student Career Peer Network",
+    "startTime": "2026-11-30T11:00:00+02:00",
+    "endTime": "2026-11-30T12:00:00+02:00",
+    "registrationUrl": null,
+    "waitlistUrl": null,
+    "status": "normal",
+    "changeNote": null,
+    "updatedAt": "2026-11-07T16:00:00+02:00",
+    "tags": [
+      "portfolio",
+      "career",
+      "design"
+    ],
+    "image": null
   }
 ]
