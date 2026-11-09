@@ -50,5 +50,21 @@ export default function EventBoard({events}:{events:CampusEvent[]}) {
    {groups.length?groups.map(group=><section key={group.dateKey} className="daygroup"><h2 className="daygroup-heading"><span>{labelForDate(group.dateKey,now||new Date())}</span><span className="daygroup-count">{group.events.length}</span></h2><div>{group.events.map(e=><EventCard key={e.id} event={e}/>)}</div></section>):<div className="rounded-2xl border border-dashed border-[var(--line)] bg-white px-5 py-14 text-center"><CalendarDays size={34} className="mx-auto text-[var(--muted)]"/><h2 className="mt-3 text-lg font-bold">No events match your filters</h2><p className="mt-2 text-sm text-[var(--muted)]">Try another date or interest.</p><button type="button" onClick={clearFilters} className="mt-5 inline-flex min-h-11 items-center gap-2 rounded-xl bg-[var(--tartan-red)] px-5 text-sm font-bold text-white"><X size={16}/> Clear filters</button></div>}
    <p className="mt-9 text-center text-xs text-[var(--muted)]">All event times are shown in Kigali time (CAT, UTC+2).</p>
   </main>
+
+  <footer className="border-t border-[var(--line)] bg-[#faf8f6] px-4 py-6">
+    <div className="mx-auto flex max-w-5xl flex-col items-center gap-2 text-center">
+      <p className="text-sm text-[var(--muted)]">
+        Built for Tartans, by a Tartan.
+      </p>
+
+      <p className="text-sm font-semibold text-[var(--ink)]">
+        Created by Herbert Okuthe
+      </p>
+
+      <p className="text-xs text-[var(--muted)]">
+        © 2026 Tartan Now · A student-led initiative
+      </p>
+    </div>
+  </footer>
  </>;
 }
