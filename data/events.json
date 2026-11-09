@@ -48,7 +48,7 @@
     "updatedAt": "2026-11-07T11:30:00+02:00",
     "image": null
   },
-    {
+  {
     "id": "demo-10",
     "title": "Python for Data Visualization (Demo)",
     "description": "Explore simple techniques for creating clear charts and presenting data. This is a fictional demonstration event, not a confirmed CMU-Africa activity.",
@@ -258,88 +258,75 @@
       "design"
     ],
     "image": null
-  }, 
+  },
   
-  
-  { 
-    "id": "global-entrepreneurship-week-mon",
+  {
+    "id": "global-entrepreneurship-week-tue",
     "title": "Global Entrepreneurship Week — Day 1",
     "description": "Join Global Entrepreneurship Week for conversations, learning, and activities celebrating entrepreneurship and innovation.",
     "category": "Career",
     "location": "Innovation Hub, PEZ",
     "organizer": "CMU-Africa",
-    "startTime": "2026-11-16T12:30:00+02:00",
-    "endTime": "2026-11-16T14:00:00+02:00",
+    "startTime": "2026-11-10T12:30:00+02:00",
+    "endTime": "2026-11-10T14:00:00+02:00",
     "registrationUrl": "https://events.cmu.edu/africa/event/35464-global-entrepreneurship-week",
     "waitlistUrl": null,
     "status": "normal",
     "changeNote": null,
-    "updatedAt": "2026-11-09T08:00:00+02:00",
-    "tags": ["entrepreneurship", "innovation", "startups", "business", "networking"]
+    "updatedAt": "2026-11-09T09:00:00+02:00",
+    "tags": ["entrepreneurship", "innovation", "startups", "business", "networking"],
+    "image": null
   },
   {
-    "id": "global-entrepreneurship-week-tue",
+    "id": "global-entrepreneurship-week-wed",
     "title": "Global Entrepreneurship Week — Day 2",
     "description": "Day two of Global Entrepreneurship Week, bringing together students and innovators to explore entrepreneurship.",
     "category": "Career",
     "location": "Innovation Hub, PEZ",
     "organizer": "CMU-Africa",
-    "startTime": "2026-11-17T12:30:00+02:00",
-    "endTime": "2026-11-17T14:00:00+02:00",
+    "startTime": "2026-11-11T12:30:00+02:00",
+    "endTime": "2026-11-11T14:00:00+02:00",
     "registrationUrl": "https://events.cmu.edu/africa/event/35464-global-entrepreneurship-week",
     "waitlistUrl": null,
     "status": "normal",
     "changeNote": null,
-    "updatedAt": "2026-11-09T08:00:00+02:00",
-    "tags": ["entrepreneurship", "innovation", "startups", "business", "networking"]
+    "updatedAt": "2026-11-09T09:00:00+02:00",
+    "tags": ["entrepreneurship", "innovation", "startups", "business", "networking"],
+    "image": null
   },
   {
-    "id": "global-entrepreneurship-week-wed",
+    "id": "global-entrepreneurship-week-thu",
     "title": "Global Entrepreneurship Week — Day 3",
     "description": "Continue exploring entrepreneurial ideas, innovation, and opportunities during Global Entrepreneurship Week.",
     "category": "Career",
     "location": "Innovation Hub, PEZ",
     "organizer": "CMU-Africa",
-    "startTime": "2026-11-18T12:30:00+02:00",
-    "endTime": "2026-11-18T14:00:00+02:00",
+    "startTime": "2026-11-12T12:30:00+02:00",
+    "endTime": "2026-11-12T14:00:00+02:00",
     "registrationUrl": "https://events.cmu.edu/africa/event/35464-global-entrepreneurship-week",
     "waitlistUrl": null,
     "status": "normal",
     "changeNote": null,
-    "updatedAt": "2026-11-09T08:00:00+02:00",
-    "tags": ["entrepreneurship", "innovation", "startups", "business", "networking"]
-  },
-  {
-    "id": "global-entrepreneurship-week-thu",
-    "title": "Global Entrepreneurship Week — Day 4",
-    "description": "Connect with the entrepreneurial community and discover perspectives on innovation and business.",
-    "category": "Career",
-    "location": "Innovation Hub, PEZ",
-    "organizer": "CMU-Africa",
-    "startTime": "2026-11-19T12:30:00+02:00",
-    "endTime": "2026-11-19T14:00:00+02:00",
-    "registrationUrl": "https://events.cmu.edu/africa/event/35464-global-entrepreneurship-week",
-    "waitlistUrl": null,
-    "status": "normal",
-    "changeNote": null,
-    "updatedAt": "2026-11-09T08:00:00+02:00",
-    "tags": ["entrepreneurship", "innovation", "startups", "business", "networking"]
+    "updatedAt": "2026-11-09T09:00:00+02:00",
+    "tags": ["entrepreneurship", "innovation", "startups", "business", "networking"],
+    "image": null
   },
   {
     "id": "global-entrepreneurship-week-fri",
-    "title": "Global Entrepreneurship Week — Day 5",
+    "title": "Global Entrepreneurship Week — Day 4",
     "description": "The final day of Global Entrepreneurship Week, celebrating entrepreneurship, innovation, and community.",
     "category": "Career",
     "location": "Innovation Hub, PEZ",
     "organizer": "CMU-Africa",
-    "startTime": "2026-11-20T12:30:00+02:00",
-    "endTime": "2026-11-20T14:00:00+02:00",
+    "startTime": "2026-11-13T12:30:00+02:00",
+    "endTime": "2026-11-13T14:00:00+02:00",
     "registrationUrl": "https://events.cmu.edu/africa/event/35464-global-entrepreneurship-week",
     "waitlistUrl": null,
     "status": "normal",
     "changeNote": null,
-    "updatedAt": "2026-11-09T08:00:00+02:00",
-    "tags": ["entrepreneurship", "innovation", "startups", "business", "networking"]
+    "updatedAt": "2026-11-09T09:00:00+02:00",
+    "tags": ["entrepreneurship", "innovation", "startups", "business", "networking"],
+    "image": null
   }
 
 ]
